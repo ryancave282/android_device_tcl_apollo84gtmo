@@ -1,0 +1,27 @@
+#
+# Copyright (C) 2025 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+# Inherit from Apollo_8_4G_TMO device
+$(call inherit-product, device/tcl/Apollo_8_4G_TMO/device.mk)
+
+PRODUCT_DEVICE := Apollo_8_4G_TMO
+PRODUCT_NAME := lineage_Apollo_8_4G_TMO
+PRODUCT_BRAND := Alcatel
+PRODUCT_MODEL := 9032Z
+PRODUCT_MANUFACTURER := tcl
+
+PRODUCT_GMS_CLIENTID_BASE := android-boostdish-us-revc
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="9032Z-user 10 QP1A.190711.020 v1D3V-0 release-keys"
+
+BUILD_FINGERPRINT := Alcatel/9032Z/Apollo_8_4G_TMO:10/QP1A.190711.020/v1D3V-0:user/release-keys
