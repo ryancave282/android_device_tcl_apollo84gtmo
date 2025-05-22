@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tcl/Apollo_8_4G_TMO
+DEVICE_PATH := device/tcl/apollo84gtmo
 
 # Architecture
 TARGET_ARCH := arm

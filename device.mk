@@ -63,4 +63,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/tcl/Apollo_8_4G_TMO/Apollo_8_4G_TMO-vendor.mk)
+$(call inherit-product, vendor/tcl/apollo84gtmo/apollo84gtmo-vendor.mk)
