@@ -13,8 +13,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from Apollo_8_4G_TMO device
 $(call inherit-product, device/tcl/apollo84gtmo/device.mk)
 
-PRODUCT_DEVICE := Apollo_8_4G_TMO
-PRODUCT_NAME := lineage_Apollo_8_4G_TMO
+PRODUCT_DEVICE := apollo84gtmo
+PRODUCT_NAME := lineage_apollo84gtmo
 PRODUCT_BRAND := Alcatel
 PRODUCT_MODEL := 9032Z
 PRODUCT_MANUFACTURER := tcl
